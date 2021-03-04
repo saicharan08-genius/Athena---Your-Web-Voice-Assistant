@@ -20,14 +20,6 @@ if(annyang){
 
   const athenawiki = {
     '(Athena) what (is) your name (Athena)' : answer,
-    '(Athena) who (made) (built) (build) you (Athena)' : reply1
-    '(Athena) who are you (Athena)' : reply2,
-    '(Athena) where do you (reside) (live) (stay) (Athena)' : reply3,
-    '(Athena) how are you (Athena)' : reply4,
-    '(Athena) how its going (Athena)' : reply4,
-    '(Athena) Are you (a)(an) (robot)(aeai)(artificial intelligence)' : reply5,
-    '(Athena) sup (Athena)' : reply6,
-    '(Athena) sups (Athena)' : reply6,    
   };
 
   const wikisearch = {
@@ -51,14 +43,6 @@ if(annyang){
     const names = ['My name is Athena' , 'Hey! My name is Athena!' , 'Hola! My name is Athena'];
     var i = parseInt(getRandomInt(3));
     responsiveVoice.speak(names[i] , "US English Female");
-  }
-  
-  function reply1(){
-    //code
-  }
-
-  function reply2(){
-    //code
   }
 
 }
