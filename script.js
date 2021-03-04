@@ -6,6 +6,10 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
+function interruptAds() {
+  //code
+}
+
 if(annyang){
 
   annyang.start();
@@ -26,10 +30,25 @@ if(annyang){
     //code
   };
 
+  const openurl = {
+    //code
+  };
+
+  const quiz = {
+    //code
+  };
+
+  const fun = {
+    //code
+  };
+
   annyang.addCommands(googlesearch);
   annyang.addCommands(ytsearch);
   annyang.addCommands(athenawiki);
   annyang.addCommands(wikisearch);
+  annyang.addCommands(openurl);
+  annyang.addCommands(quiz);
+  annyang.addCommands(fun);
 
   function moveWeb(searchQuery) {
     window.location.replace('https://google.com/search?q=' + searchQuery);
